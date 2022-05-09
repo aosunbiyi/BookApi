@@ -30,6 +30,7 @@ public class StudentService {
             throw  new IllegalStateException("email taken");
         }
         this.studentRepository.save(student);
+        //nice
     }
 
 
